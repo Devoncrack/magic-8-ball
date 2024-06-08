@@ -147,6 +147,7 @@ input {
 #links {
   color:#066;
   width:626px;
+  gap: 70px;
   margin:0 auto;
   margin-top:10px;
 }
