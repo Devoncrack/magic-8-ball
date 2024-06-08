@@ -13,7 +13,7 @@
     
     n : 0,
     answered : 0,
-    answers : ['It is certain','It is decidedly so','Without a doubt','Yes definitely','You may rely on it','As I see it, yes','Most likely','Outlook good','Yes','Signs point to yes','Reply hazy try again','Ask again later','Better not tell you now','Cannot predict now','Concentrate and ask again','Don\'t count on it','My reply is no','My sources say no','Outlook not so good','Very doubtful'],
+    answers : ['Yes, because adversity builds men.','No excuses, just do it.','Yes, but remember, high standards protect you from low-quality experiences.','Absolutely, success is about preparation, not luck.','No, stop waiting for the right moment.','Yes, and dont be afraid of the pain, it leads to greatness.','No, complacency breeds failure.','Definitely, but remember discipline is key.','No, amateurs wont make it.','Yes, every action you take molds you.','Not a chance, being a loser is not okay.','Yes, but only if youre willing to suffer.','No, fear doesnt prevent action.','Yes, success requires you to be a professional.','Concentrate and ask again','No, dont let fear guide what you do.','Absolutely, but you must be willing to work harder.','No, laziness is not an option.','Yes, if you want to win, stop quitting.','No, dont listen to the weak.'],
     
     /* shake the 8-ball */
     shake : function() {
@@ -23,7 +23,7 @@
           var revisit = confirm('The Magic 8-ball appears to be upset, maybe you should ask it a question later.');
           revisit && window.location.reload();
         }, 5000);
-        return magic8.log('', 'I\'m not answering you... impostor !.. Now go away !!');
+        return magic8.log('', 'Im not answering you... impostor !.. Now go away !!');
       }
     
       magic8.answered++;
